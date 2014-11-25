@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF0E1D701763F9B800528BA5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0E1D6F1763F9B800528BA5 /* Default-568h@2x.png */; };
+		0FECA4D51A24B8C20094489F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FECA4D41A24B8C20094489F /* Images.xcassets */; };
+		0FECA4D71A24B9080094489F /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FECA4D61A24B9080094489F /* Launch Screen.xib */; };
+		0FECA4D91A24BB6C0094489F /* Icon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 0FECA4D81A24BB6C0094489F /* Icon.svg */; };
+		0FECA4E91A24C0180094489F /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FECA4DC1A24C0170094489F /* Icon-72.png */; };
+		0FECA4EA1A24C0180094489F /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FECA4DD1A24C0170094489F /* Icon-72@2x.png */; };
+		0FECA4EB1A24C0180094489F /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FECA4DE1A24C0170094489F /* Icon-76.png */; };
+		0FECA4EC1A24C0180094489F /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FECA4DF1A24C0170094489F /* Icon-76@2x.png */; };
+		0FECA4F41A24C0180094489F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FECA4E71A24C0170094489F /* Icon.png */; };
+		0FECA4F51A24C0180094489F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FECA4E81A24C0180094489F /* Icon@2x.png */; };
+		0FECA4F91A24C26D0094489F /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FECA4F71A24C26D0094489F /* Icon-60@2x.png */; };
+		0FECA4FB1A24C2FA0094489F /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FECA4FA1A24C2FA0094489F /* Logo.png */; };
+		0FECA4FD1A24C4C20094489F /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FECA4FC1A24C4C20094489F /* Icon-60@3x.png */; };
 		BF0E1D731763FA3D00528BA5 /* UIScreen+Widescreen.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0E1D721763FA3D00528BA5 /* UIScreen+Widescreen.m */; };
 		CE2EE5EE173F663B00786468 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2EE5EC173F663B00786468 /* main.m */; };
 		CE2EE5FD173F66E300786468 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2EE5F6173F66E300786468 /* AppDelegate.m */; };
@@ -112,8 +123,6 @@
 		CEB43C42173FCA3F00055F91 /* GLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB43C41173FCA3F00055F91 /* GLProgram.m */; };
 		CEB43C45173FD25A00055F91 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB43C43173FD25900055F91 /* GLKit.framework */; };
 		CEB43C46173FD25A00055F91 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB43C44173FD25900055F91 /* OpenGLES.framework */; };
-		D326847E17497DBC000D4ED6 /* nds4ios.png in Resources */ = {isa = PBXBuildFile; fileRef = D326847C17497DBC000D4ED6 /* nds4ios.png */; };
-		D326847F17497DBC000D4ED6 /* nds4ios@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D326847D17497DBC000D4ED6 /* nds4ios@2x.png */; };
 		D38CBC971745CEC60074C554 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D38CBC901745CEC60074C554 /* MMDrawerBarButtonItem.m */; };
 		D38CBC981745CEC60074C554 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D38CBC921745CEC60074C554 /* MMDrawerController.m */; };
 		D38CBC991745CEC60074C554 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = D38CBC941745CEC60074C554 /* MMDrawerVisualState.m */; };
@@ -125,7 +134,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BF0E1D6F1763F9B800528BA5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0FECA4D41A24B8C20094489F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NDS4iOS/Images.xcassets; sourceTree = "<group>"; };
+		0FECA4D61A24B9080094489F /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+		0FECA4D81A24BB6C0094489F /* Icon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Icon.svg; sourceTree = "<group>"; };
+		0FECA4DC1A24C0170094489F /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		0FECA4DD1A24C0170094489F /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		0FECA4DE1A24C0170094489F /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		0FECA4DF1A24C0170094489F /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		0FECA4E71A24C0170094489F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0FECA4E81A24C0180094489F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		0FECA4F71A24C26D0094489F /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		0FECA4FA1A24C2FA0094489F /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		0FECA4FC1A24C4C20094489F /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
 		BF0E1D711763FA3D00528BA5 /* UIScreen+Widescreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+Widescreen.h"; sourceTree = "<group>"; };
 		BF0E1D721763FA3D00528BA5 /* UIScreen+Widescreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Widescreen.m"; sourceTree = "<group>"; };
 		CE2EE5EA173F661D00786468 /* nds4ios-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "nds4ios-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -314,9 +334,7 @@
 		CEB43C41173FCA3F00055F91 /* GLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLProgram.m; path = Classes/GLProgram.m; sourceTree = "<group>"; };
 		CEB43C43173FD25900055F91 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		CEB43C44173FD25900055F91 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		CEC742F916776248006D193E /* nds4ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nds4ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D326847C17497DBC000D4ED6 /* nds4ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nds4ios.png; sourceTree = "<group>"; };
-		D326847D17497DBC000D4ED6 /* nds4ios@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nds4ios@2x.png"; sourceTree = "<group>"; };
+		CEC742F916776248006D193E /* NDS4iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NDS4iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38CBC8F1745CEC60074C554 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
 		D38CBC901745CEC60074C554 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
 		D38CBC911745CEC60074C554 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
@@ -351,6 +369,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FECA4DA1A24BFE20094489F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0FECA4DB1A24C0050094489F /* Icons */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0FECA4DB1A24C0050094489F /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				0FECA4DC1A24C0170094489F /* Icon-72.png */,
+				0FECA4DD1A24C0170094489F /* Icon-72@2x.png */,
+				0FECA4DE1A24C0170094489F /* Icon-76.png */,
+				0FECA4DF1A24C0170094489F /* Icon-76@2x.png */,
+				0FECA4E71A24C0170094489F /* Icon.png */,
+				0FECA4FC1A24C4C20094489F /* Icon-60@3x.png */,
+				0FECA4F71A24C26D0094489F /* Icon-60@2x.png */,
+				0FECA4E81A24C0180094489F /* Icon@2x.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
 		CE2EE5F4173F66D100786468 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -617,8 +658,11 @@
 		CEC742EE16776248006D193E = {
 			isa = PBXGroup;
 			children = (
-				BF0E1D6F1763F9B800528BA5 /* Default-568h@2x.png */,
-				D326847B17497DB1000D4ED6 /* UI */,
+				0FECA4DA1A24BFE20094489F /* Resources */,
+				0FECA4D81A24BB6C0094489F /* Icon.svg */,
+				0FECA4FA1A24C2FA0094489F /* Logo.png */,
+				0FECA4D61A24B9080094489F /* Launch Screen.xib */,
+				0FECA4D41A24B8C20094489F /* Images.xcassets */,
 				CE2EE60C173F6C1E00786468 /* nds4droid-code */,
 				CE2EE5F4173F66D100786468 /* Classes */,
 				CEC7430416776248006D193E /* Supporting Files */,
@@ -630,7 +674,7 @@
 		CEC742FA16776248006D193E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEC742F916776248006D193E /* nds4ios.app */,
+				CEC742F916776248006D193E /* NDS4iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -644,15 +688,6 @@
 			);
 			name = "Supporting Files";
 			path = nds4ios;
-			sourceTree = "<group>";
-		};
-		D326847B17497DB1000D4ED6 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				D326847C17497DBC000D4ED6 /* nds4ios.png */,
-				D326847D17497DBC000D4ED6 /* nds4ios@2x.png */,
-			);
-			name = UI;
 			sourceTree = "<group>";
 		};
 		D338B2FD17470D1B00932C39 /* Side Drawer */ = {
@@ -729,9 +764,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEC742F816776248006D193E /* nds4ios */ = {
+		CEC742F816776248006D193E /* NDS4iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEC7431D16776248006D193E /* Build configuration list for PBXNativeTarget "nds4ios" */;
+			buildConfigurationList = CEC7431D16776248006D193E /* Build configuration list for PBXNativeTarget "NDS4iOS" */;
 			buildPhases = (
 				CEC742F516776248006D193E /* Sources */,
 				CEC742F616776248006D193E /* Frameworks */,
@@ -741,9 +776,9 @@
 			);
 			dependencies = (
 			);
-			name = nds4ios;
+			name = NDS4iOS;
 			productName = nds4ios;
-			productReference = CEC742F916776248006D193E /* nds4ios.app */;
+			productReference = CEC742F916776248006D193E /* NDS4iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -767,7 +802,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEC742F816776248006D193E /* nds4ios */,
+				CEC742F816776248006D193E /* NDS4iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -777,11 +812,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FECA4F41A24C0180094489F /* Icon.png in Resources */,
+				0FECA4F51A24C0180094489F /* Icon@2x.png in Resources */,
+				0FECA4F91A24C26D0094489F /* Icon-60@2x.png in Resources */,
+				0FECA4EA1A24C0180094489F /* Icon-72@2x.png in Resources */,
+				0FECA4EC1A24C0180094489F /* Icon-76@2x.png in Resources */,
+				0FECA4FD1A24C4C20094489F /* Icon-60@3x.png in Resources */,
+				0FECA4EB1A24C0180094489F /* Icon-76.png in Resources */,
+				0FECA4D51A24B8C20094489F /* Images.xcassets in Resources */,
+				0FECA4FB1A24C2FA0094489F /* Logo.png in Resources */,
+				0FECA4D71A24B9080094489F /* Launch Screen.xib in Resources */,
 				D38CBCAF1745CF9C0074C554 /* SettingsViewController.xib in Resources */,
+				0FECA4D91A24BB6C0094489F /* Icon.svg in Resources */,
 				D38CBCB11745CF9C0074C554 /* SideViewController.xib in Resources */,
-				D326847E17497DBC000D4ED6 /* nds4ios.png in Resources */,
-				D326847F17497DBC000D4ED6 /* nds4ios@2x.png in Resources */,
-				BF0E1D701763F9B800528BA5 /* Default-568h@2x.png in Resources */,
+				0FECA4E91A24C0180094489F /* Icon-72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -952,6 +996,7 @@
 		CEC7431E16776248006D193E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -970,14 +1015,12 @@
 					"$(SRCROOT)/nds4droid-code/jni/desmume/src/android",
 				);
 				INFOPLIST_FILE = "nds4ios-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = (
 					"-DANDROID",
 					"-fexceptions",
 					"-ftree-vectorize",
-					"-fsingle-precision-constant",
 					"-fprefetch-loop-arrays",
-					"-fvariable-expansion-in-unroller",
 					"-DCOMPRESS_MT",
 					"-DIOS",
 					"-DHAVE_LIBZ",
@@ -991,6 +1034,7 @@
 		CEC7431F16776248006D193E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -1003,15 +1047,13 @@
 					"$(SRCROOT)/nds4droid-code/jni/desmume/src/android",
 				);
 				INFOPLIST_FILE = "nds4ios-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"-DANDROID",
 					"-fexceptions",
 					"-ftree-vectorize",
-					"-fsingle-precision-constant",
 					"-fprefetch-loop-arrays",
-					"-fvariable-expansion-in-unroller",
 					"-DCOMPRESS_MT",
 					"-DIOS",
 					"-DHAVE_NEON=1",
@@ -1035,7 +1077,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEC7431D16776248006D193E /* Build configuration list for PBXNativeTarget "nds4ios" */ = {
+		CEC7431D16776248006D193E /* Build configuration list for PBXNativeTarget "NDS4iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEC7431E16776248006D193E /* Debug */,

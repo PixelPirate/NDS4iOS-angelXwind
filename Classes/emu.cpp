@@ -322,7 +322,7 @@ void nds4droid_user()
 		//calculate a 16 frame arm9 load average
 		for(int cpu=0;cpu<2;cpu++)
 		{
-			int load = 0;
+			//int load = 0;
 			//printf("%d: ",cpu);
 			for(int i=0;i<16;i++)
 			{
@@ -335,10 +335,10 @@ void nds4droid_user()
 				+	nds.runCycleCollector[cpu][(i+2+nds.idleFrameCounter)&15]
 				+	nds.runCycleCollector[cpu][(i+3+nds.idleFrameCounter)&15];
 				sample /= 4;
-				load = load/8 + sample*7/8;
+				//load = load/8 + sample*7/8;
 			}
 			//printf("\n");
-			load = std::min(100,std::max(0,(int)(load*100/1120380)));
+			//load = std::min(100,std::max(0,(int)(load*100/1120380)));
 			//Hud.cpuload[cpu] = load;
 		}
 	}
